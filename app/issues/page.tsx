@@ -1,10 +1,4 @@
-import { env } from "@/env.mjs";
-import octokit from "@/lib/octokit";
-import Image from "next/image";
-import Link from "next/link";
-import { GoIssueOpened } from "react-icons/go";
-import Markdown from "@/components/Markdown";
-import ActiveProjects from "../projects/ActiveProjects";
+import ActiveProjects from "@/app/projects/ActiveProjects";
 
 const page = async () => {
   const refUrl = `https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/encouraging-helpful-contributions-to-your-project-with-labels`;
